@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #21255d;
+  height: 3.5rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  position: relative;
+}
+
+.img-ham {
+  height: 1rem;
+}
+
+.main-img-container {
+  text-align: center;
+}
+
+.menu {
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.logo-mid {
+  height: 4rem;
+  margin-left: 32%;
+  margin-top: 0;
+  position: absolute;
+  top: 1rem;
+}
+
+.midi {
+  height: 4rem;
+  margin-left: 32%;
+  margin-top: 0;
+  position: absolute;
+  top: 3.5rem;
+  right: 5rem;
+  display: none;
+}
+
+.lingua {
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-left: 1%;
+  margin-left: 70%;
+}
+
+.img-left-0 {
+  height: 0.5rem;
+  margin-left: 2%;
+}
+
+.img-left-1 {
+  height: 1rem;
+  margin-left: 2%;
+}
+
+.main-img-container {
+  max-width: 100%;
+  background-image: url("images/tanger-main-photo.jpg");
+  height: 40rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-center-main {
+  max-width: 100%;
+  color: aliceblue;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 14rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.03), 0px 4px 3px rgba(0, 0, 0, 0.03),
+    0px 4px 3px rgba(0, 0, 0, 0.03);
+}
+
+.mainy {
+  max-width: 100%;
+}
+
+.container-second {
+  margin-top: 3rem;
+}
+
+.s-contained {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  flex-wrap: nowrap;
+  flex-basis: 33.33%;
+}
+
+.img-t {
+  max-width: 32.5%;
+}
+
+.t {
+  max-width: 100%;
+}
+
+.secondy {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.para {
+  position: relative;
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-left: 3.2rem;
+}
+
+.para::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  background-color: #21255d;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: -100px;
+  left: -1rem;
+}
+
+.gru {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.re {
+  gap: 5%;
+}
+
+.parajin {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.gru-eins {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.nee {
+  display: flex;
+  flex-direction: column;
+}
+
+.jin {
+  width: 25rem;
+}
+
+.lel {
+  margin-top: 0;
+}
+
+.parejo {
+  position: relative;
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.dee {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 30rem;
+}
+
+.j {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.gris {
+  height: 20rem;
+  background-color: #21255d;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowy {
+  display: flex;
+  gap: 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.japajin {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.miaw {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lawla {
+  gap: 0;
+}
+
+.k {
+  width: 2rem;
+  height: 2rem;
+}
+
+.inmiaw {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.m {
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 1000px) {
+  .lingua {
+    display: none;
+  }
+
+  .img-left-0 {
+    display: none;
+  }
+
+  .img-left-1 {
+    display: none;
+  }
+  .logo-mid {
+    display: none;
+  }
+  .midi {
+    display: inline-block;
+    height: 3rem;
+  }
+  .txt-center-main {
+    padding-bottom: 6rem;
+  }
+  .t {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .txt-center-main {
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .txt-center-main {
+    font-size: 3rem;
+    margin-bottom: 12rem;
+    padding-bottom: 10rem;
+    margin-left: 0%;
+  }
+  .jin {
+    width: 80%;
+  }
+  .t {
+    max-width: 100%;
+  }
+  .rowy {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .txt-center-main {
+    font-size: 2.5rem;
+    margin-bottom: 12rem;
+    padding-bottom: 10rem;
+  }
+  .midi {
+    display: inline-block;
+    height: 3rem;
+    height: 2rem;
+    margin-left: 0%;
+    right: 0;
+  }
+  .t {
+    max-width: 100%;
+  }
+  .jin {
+    width: 80%;
+  }
+  .rowy {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .txt-center-main {
+    font-size: 2.5rem;
+    margin-bottom: 12rem;
+    padding-bottom: 10rem;
+    width: 80%;
+  }
+  .rowy {
+    justify-content: center;
+  }
+  .j {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .midi {
+    display: inline-block;
+    height: 3rem;
+    height: 2rem;
+    margin-left: 0%;
+    right: 0;
+  }
+  .t {
+    max-width: 100%;
+  }
+  .jin {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .img-t {
+    border-radius: 5px;
+    max-width: 33.33%;
+  }
+  .j {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .t {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .img-t {
+    border-radius: 5px;
+    max-width: 100rem;
+    height: 30rem;
+  }
+  .j {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .s-contained {
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  .t {
+    max-width: 100%;
+  }
+}
